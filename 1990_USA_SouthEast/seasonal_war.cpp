@@ -51,7 +51,7 @@ char * * read_in_new_array(int n)
 
 void free_array(char * * array, int n)
 { 
-    int i, j;
+    int i;
     for (i = 0; i < n; i += 1)
     {  
         delete [] array[i];
