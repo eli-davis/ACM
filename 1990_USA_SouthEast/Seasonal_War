@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 
-
 using namespace std;
 
 int kill_war_eagle(char * * array, int i, int j)
