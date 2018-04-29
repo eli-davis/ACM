@@ -62,8 +62,7 @@ int number_of_war_eagles()
             if (kill_war_eagle(array, i, j))
                 number_of_eagles += 1;
     free_array(array, n);
-    return number_of_eagles;
-}
+    return number_of_eagles;   }
 
 int main()
 {   int i, n;
